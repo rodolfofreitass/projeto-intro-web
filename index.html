@@ -1,0 +1,32 @@
+<!-- SEMANA 7 - Criação da página HTML -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Hypercars 2000s</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo-site" src="https://i.postimg.cc/Y2f5nDwd/Screenshot-2-removebg-preview.png">
+        <p class="subtitulo">Os melhores, mais rápidos e icônicos carros dos anos 2000.</p>
+    </header>
+    <main>
+        <section class="busca" id="busca">
+            <p><label for="teste" class="procurar">Procurar carro</label></p>
+            <input id="pesquisaCarro" type="text">
+            <button class="botao-pesquisar" type="submit" onclick="pesquisaRelatorio()">PESQUISAR</button>
+        </section>
+        <section class="carros-listas" id="carros-listados">
+        </section>
+    </main>
+    <footer>
+        <p>Criado por Rodolfo Freitas</p>
+        <a class="git" href="https://github.com/rodolfofreitass" target="_blank"><p>Meu Github</p></a>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
